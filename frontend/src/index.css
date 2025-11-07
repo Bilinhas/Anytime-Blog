@@ -1,0 +1,42 @@
+body {
+  background-image: url("/src/images/bg.png");
+  background-color: #1b1b1b;
+  color: #e0e0e0;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card,
+.form-control,
+.btn,
+.alert {
+  border-radius: 8px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #2a2a2a;
+}
+
+.form-control {
+  background-color: #626479;
+  color: #fff;
+  border: 1px solid #626479;
+}
+
+.form-control::placeholder {
+  color: #fff;
+}
+
+.form-control:enabled {
+  background-color: #626479;
+  color: #fff;
+  border: 1px solid #626479;
+}
+
+.alert {
+  background-color: #212529;
+  color: #f8f9fa;
+  border: 1px solid #333;
+}
